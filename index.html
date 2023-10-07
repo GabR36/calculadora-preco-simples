@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora De Preço Simples</title>
+  </head>
+  <body>
+    <h1>Calculadora de Preço Simples</h1>
+    <p>Preço de Compra:
+      <input type="number" id="precoCompra" onkeyup="calcular(event)"></p>
+    <p>Porcentagem:
+      <input type="number" id="porcentagem" onkeyup="calcular(event)" value="40"></p>
+    <p id="resultado"></p>
+    <h2>Histórico</h2>
+    <table id="historico">
+      <tr>
+	<th>Preço-Compra</th>
+	<th>Porcentagem</th>
+	<th>Preço-Venda</th>
+      </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
